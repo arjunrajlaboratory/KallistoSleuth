@@ -1,0 +1,10 @@
+sample	unit	fragment_len_mean	fragment_len_sd	fq1	fq2
+d0_mouse1_rep1	1			data/d0_mouse1_rep1.fastq.gz
+d0_mouse2_rep2	1			data/d0_mouse2_rep2.fastq.gz
+d0_mouse3_rep3	1			data/d0_mouse3_rep3.fastq.gz
+d3_mouse1_rep1	1			data/d3_mouse1_rep1.fastq.gz
+d3_mouse2_rep2	1			data/d3_mouse2_rep2.fastq.gz
+d3_mouse3_rep3	1			data/d3_mouse3_rep3.fastq.gz
+d5_mouse1_rep1	1			data/d5_mouse1_rep1.fastq.gz
+d5_mouse2_rep2	1			data/d5_mouse2_rep2.fastq.gz
+d5_mouse3_rep3	1			data/d5_mouse3_rep3.fastq.gz

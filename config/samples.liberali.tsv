@@ -1,0 +1,10 @@
+sample	condition	batch_effect
+d0_mouse1_rep1	early	batch1
+d0_mouse2_rep2	early	batch2
+d0_mouse3_rep3	early	batch3
+d3_mouse1_rep1	mid	batch1
+d3_mouse2_rep2	mid	batch2
+d3_mouse3_rep3	mid	batch3
+d5_mouse1_rep1	late	batch1
+d5_mouse2_rep2	late	batch2
+d5_mouse3_rep3	late	batch3

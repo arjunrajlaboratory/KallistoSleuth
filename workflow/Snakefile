@@ -1,0 +1,17 @@
+import pandas as pd
+unit = pd.read_csv("config/units.tsv",sep="\t")
+
+include: "rules/common.smk"
+include: "rules/trim.smk"
+include: "rules/quant.smk"
+include: "rules/qc.smk"
+
+rule all:
+    input:
+        expand(["results/trimmed/{sample}-{unit}.fastq.gz",
+                "results/kallisto/{sample}-{unit}/abundance.tsv",
+                "results/fastqc/{sample}-{unit}.html"],
+		sample= unit["sample"],
+		unit=unit["unit"]),
+    	"results/kallisto/transcripts.idx",
+        "results/qc/multiqc_report.html"

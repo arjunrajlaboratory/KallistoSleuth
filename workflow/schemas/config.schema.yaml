@@ -1,0 +1,45 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+properties:
+  samples:
+    type: string
+  units:
+    type: string
+
+  resources:
+    type: object
+    properties:
+      ref:
+        type: object
+        properties:
+          transcriptome:
+            type: string
+          species:
+            type: string
+        required:
+          - transcriptome
+          - species
+
+  params:
+    type: object
+    properties:
+      kallisto:
+        type: string
+      cutadapt-se:
+        type: string
+      cutadapt-pe:
+        type: string
+    required:
+      - kallisto
+      - cutadapt-se
+      - cutadapt-pe
+
+required:
+  - samples
+  - units
+  - resources
+  - params

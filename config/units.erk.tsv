@@ -1,0 +1,9 @@
+sample	unit	fragment_len_mean	fragment_len_sd	fq1	fq2
+ctrl1	1			data/Erk-EtOH-nlDensity_S5_L001_R1_001.fastq.gz
+ctrl2	1			data/Erk-EtOH-nlDensity_S5_L002_R1_001.fastq.gz
+ctrl3	1			data/Erk-EtOH-nlDensity_S5_L003_R1_001.fastq.gz
+ctrl4	1			data/Erk-EtOH-nlDensity_S5_L004_R1_001.fastq.gz
+TGFbHI1	1			data/Erk-TGFb-high_S10_L001_R1_001.fastq.gz
+TGFbHI2	1			data/Erk-TGFb-high_S10_L002_R1_001.fastq.gz
+TGFbHI3	1			data/Erk-TGFb-high_S10_L003_R1_001.fastq.gz
+TGFbHI4	1			data/Erk-TGFb-high_S10_L004_R1_001.fastq.gz
