@@ -1,6 +1,7 @@
 ## KallistoSleuth_analysis.R
+# written by Phil Burnham in 2020/9/15
 
-path.home = "~/Documents/Github/KallistoSleuth/"   # path to pipeline
+path.home = "~/Documents/GitHub/KallistoSleuth/"   # path to pipeline
 
 source( paste0(path.home,"workflow/scripts/functions_kallisto_sleuth.R"))
 ### Paths and files
