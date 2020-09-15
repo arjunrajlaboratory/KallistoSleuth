@@ -43,3 +43,14 @@ You can change the number of cores as needed.
 > open multiqc_report.html
 
 This will open a MultiQC report in a browser window. You can view different metrics of your samples including the duplication rate, presence of adapters, and number of reads aligning to your reference transcriptome, as well as other things.
+
+
+## Analyzing your data:
+
+The Snakemake team has incorporated sleuth into their pipeline, but we have included it as a separate R file due to inconsistencies and errors attributed with the macOS version.
+
+1) In Rstudio, open the file “workflow/scripts/KallistoSleuth_analysis.R”.
+
+2) Scan the document and adjust various quantities, paths, etc.... as needed. Running Line 6 will hopefully load sleuth and all other necessary packages.
+
+3) Process data and images for comparisons.
